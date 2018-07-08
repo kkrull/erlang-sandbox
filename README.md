@@ -1,2 +1,3 @@
-# erlang-sandbox
-A place to try out ideas in Erlang
+# Erlang Sandbox
+
+A place to try out ideas in Erlang.

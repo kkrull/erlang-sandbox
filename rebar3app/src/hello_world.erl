@@ -5,4 +5,4 @@
 ]).
 
 greeting() -> greeting("World").
-greeting(Name) -> "Hello " ++ Name.
+greeting(Name) -> lists:flatten(io_lib:format("Hello ~s", [Name])).

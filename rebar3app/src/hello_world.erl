@@ -1,6 +1,8 @@
 -module(hello_world).
--export([fac/1]).
+-export([
+  greeting/0,
+  greeting/1
+]).
 
-fac(1) -> 1;
-fac(N) -> N * fac(N - 1).
-fac() -> 42.
+greeting() -> greeting("World").
+greeting(Name) -> "Hello " ++ Name.
